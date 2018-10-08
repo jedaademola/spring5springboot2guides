@@ -31,6 +31,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .passwordCompare()
                 .passwordEncoder(new LdapShaPasswordEncoder())
                 .passwordAttribute("userPassword");
+        //Enter username ben and password benspassword. You should see this message in your browser:
     }
 
 }
