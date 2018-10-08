@@ -19,7 +19,7 @@ public class GreetingController {
                 String.format(template, name));
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/index")
     public String index() {
         return "Greetings from Spring Boot!";
     }
